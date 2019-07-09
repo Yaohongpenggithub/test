@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>二级菜单</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{margin:0px;padding: 0px;}
+		.menu{
+			background-color: #096512;
+			display: inline-block;
+		}
+		.list{
+			list-style: none;
+			width: 97px;
+			height: 97px;
+			background-color: goldenrod;
+		}
+		.item{
+            margin-top: 5px;
+            text-align: center;
+		}
+		a{
+			display: block;
+			text-decoration: none;
+		}
+		.list{
+			display: none;
+		}
+		.menu:hover .list{
+         display: block;
+		}
+		.list li:hover>a{
+			background-color: #eee;
+		}
+
+	</style>
+</head>
+<body>
+
+	        <!-- menu菜单 -->
+<ul class="menu">
+<a href="javascript:;">小魔仙全身变</a>
+<ul class="list">
+	<li class="item"><a href="javascript:;">玩茅台</a></li>
+	<li class="item"><a href="javascript:;">伐木累</a></li>
+	<li class="item"><a href="javascript:;">阿拉拉</a></li>
+	<li class="item"><a href="javascript:;">巴拉拉</a></li>
+</ul>
+</ul>
+</body>
+</html>
